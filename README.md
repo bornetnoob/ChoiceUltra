@@ -1,14 +1,15 @@
-## 🗳️ Advanced Privacy Platform
 
-A cutting-edge platform designed to provide maximum privacy and security for your digital activities.
+## 🗳️ Advanced Privacy Platform with Zama FHE
+
+A cutting-edge privacy-focused voting platform built with Zama's Fully Homomorphic Encryption (FHE) technology and blockchain integration.
 
 ### ✨ Features
 
-- **End-to-End Encryption**: Your data is protected at all times
-- **Zero-Knowledge Architecture**: We never see your private information
-- **Decentralized Storage**: Your data is distributed across secure nodes
-- **Advanced Privacy Controls**: Granular control over your data sharing
-- **Cross-Platform Sync**: Access your data securely from any device
+- **FHE-Powered Privacy**: Zama's Fully Homomorphic Encryption ensures your votes remain encrypted even during processing
+- **Zero-Knowledge Voting**: Cast your vote without revealing your choice to anyone
+- **Blockchain Integration**: Transparent and verifiable voting results on the blockchain
+- **End-to-End Encryption**: Your data is protected at all times using advanced cryptographic protocols
+- **Decentralized Architecture**: No single point of failure or control
 
 ### 🚀 Getting Started
 
@@ -35,10 +36,18 @@ A cutting-edge platform designed to provide maximum privacy and security for you
 
 ### 🛠️ Technology Stack
 
+- **FHE Engine**: Zama FHEVM for confidential computations
+- **Blockchain**: Ethereum/Sepolia testnet integration
 - **Frontend**: Next.js, React, TypeScript
-- **Backend**: Node.js, Express
-- **Database**: PostgreSQL with encryption
+- **Smart Contracts**: Solidity with FHE operations
 - **Security**: Advanced cryptographic protocols
+
+### 🔐 Privacy Features
+
+- **Confidential Voting**: Votes are encrypted using FHE and processed without decryption
+- **Anonymous Participation**: No link between voter identity and vote choice
+- **Tamper-Proof Results**: Blockchain ensures immutability of voting results
+- **Transparent Verification**: Anyone can verify the integrity of the voting process
 
 ### 📖 Documentation
 
@@ -60,5 +69,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ---
 
-Built with ❤️ for privacy advocates
-```
+Built with ❤️ using Zama FHE technology
